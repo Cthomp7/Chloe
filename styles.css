@@ -9,4 +9,32 @@ body{
     height: 80px;
     display: block;
     background-color: #101010;
+
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navigation {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
 }
