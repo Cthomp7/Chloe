@@ -61,6 +61,15 @@ a {
   color: white;
 }
 
-.navigation a li:hover {
-  color: yellow;
+.navigation a li.home:hover {
+  color: #ffb0b0;
+}
+.navigation a li.about:hover {
+  color: #ffd374;
+}
+.navigation a li.portfolio:hover {
+  color: #fffd97;
+}
+.navigation a li.contact:hover {
+  color: #c6ff97;
 }
