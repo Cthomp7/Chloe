@@ -1,58 +1,66 @@
-body{
-    margin: 0;
-    background: white;
-    text-align: center;
+body {
+  margin: 0;
+  background: white;
+  text-align: center;
 }
 
-.header{
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: #101010;
-
+a {
+  outline: none;
+  text-decoration: none;
 }
 
-.inner_header{
-    width: 90%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
 }
 
-.logo_container{
-    height: 100%;
-    display: table;
-    float: left;
+.inner_header {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
-.logo_container h1{
-    color: white;
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    font-weight: 200;
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 200;
 }
 
 .navigation {
-    float: right;
-    height: 100%;
+  float: right;
+  height: 100%;
 }
 
-.navigation a{
-    height: 100%;
-    display: table;
-    float: left;
-    padding: 0px 20px;
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
 }
 
-.navigation a:last-child{
-    padding-right: 0;
+.navigation a:last-child {
+  padding-right: 0;
 }
 
-.navigation a li{
-    display: table-cell;
-    vertical-align: middle;
-    padding-bottom: 25px;
-    height: 100%;
-    color: white;
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 25px;
+  height: 100%;
+  color: white;
+}
+
+.navigation a li:hover {
+  color: yellow;
 }
