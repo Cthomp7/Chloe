@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="MainPage.js"></script>
+
     <link rel="shortcut icon" type="image/png" href="PNG Files/PixelatedYumi.png">
+
+    <!-- Linking Fonts – Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <div class="inner_header">
             <div class="logo_container">
                 <h1>MlgChloe</h1>
             </div>
             <ul class="navigation">
-                <a href="index"><li class="home">Home</li></a>
+                <a href="index"><li class="home" id="home" onmouseover=homeHover() onmouseout="normalHeader()">Home</li></a>
                 <a><li class="about">About</li></a>
                 <a><li class="portfolio">Portfolio</li></a>
                 <a href="contact"><li class="contact">Contact</li></a>
