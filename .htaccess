@@ -7,3 +7,34 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+gzip -d Cubology.framework.js.gz
+
+gzip -d Cubology.wasm.gz
+
+gzip -d Cubology.data.gz
+
+var buildUrl = "Build";
+
+      var loaderUrl = buildUrl + "/Cubology.loader.js";
+
+      var config = {
+
+        dataUrl: buildUrl + "/Cubology.data",
+
+        frameworkUrl: buildUrl + "/Cubology.framework.js",
+
+        codeUrl: buildUrl + "/Cubology.wasm",
+
+        streamingAssetsUrl: "StreamingAssets",
+
+        companyName: "DefaultCompany",
+
+        productName: "Hero Born",
+
+        productVersion: "0.1",
+
+        showBanner: unityShowBanner,
+
+      };
