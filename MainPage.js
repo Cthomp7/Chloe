@@ -1,12 +1,11 @@
 const header = document.getElementById("header");
 
-function normalHeader()
+function NormalHeader()
 {
-    header.style.backgroundColor = "black" ;
+    //document.getElementById("header").style.backgroundColor = "black";
 }
 
-function homeHover ()
+function HomeHover()
 {
-    header.style.backgroundColor = "yellow";
+    //document.getElementByID("header").style.backgroundcolor = "yellow";
 }
-
