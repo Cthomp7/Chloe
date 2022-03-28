@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Cubology</title>
+    <title>Unity WebGL Player | Week8-AgentSelection</title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: #231F20"></canvas>
     <script src="Build/cubology.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/cubology.data.gz",
-        frameworkUrl: "Build/cubology.framework.js.gz",
-        codeUrl: "Build/cubology.wasm.gz",
+        dataUrl: "Build/cubology.data",
+        frameworkUrl: "Build/cubology.framework.js",
+        codeUrl: "Build/cubology.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Week8-AgentSelection",
