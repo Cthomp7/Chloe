@@ -6,13 +6,13 @@
     <title>bool isPetReal = false</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 540px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" width=960 height=540 style="width: 960px; height: 540px; background: #231F20"></canvas>
     <script src="PetBuild/Pet.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "PetBuild/Pet.data.gz",
-        frameworkUrl: "PetBuild/Pet.framework.js.gz",
-        codeUrl: "PetBuild/Pet.wasm.gz",
+        dataUrl: "PetBuild/Pet.data",
+        frameworkUrl: "PetBuild/Pet.framework.js",
+        codeUrl: "PetBuild/Pet.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "isPetReal",
